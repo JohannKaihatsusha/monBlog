@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-h1{
+#titre{
     font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #fff;
+    background-color: grey;
+}
+
+li{
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover{
+    color: aquamarine;
+    transition: all 1s ease;
 }
